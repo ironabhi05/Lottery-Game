@@ -1,0 +1,97 @@
+body {
+  margin: 0%;
+  padding: 0;
+  background-image: radial-gradient(circle, #267106, #287d06, #298906, #299506, #29a206);
+}
+.giftCard{
+  background-color: rgb(230, 117, 72);
+  padding-left: 0px;
+  position: absolute;
+  height: 300px;
+  width: 344px;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-10%, -100%);
+  border-radius: 20px;
+  box-shadow:  2px 2px 20px orangered;
+}
+.giftCard h1{
+  margin-top: 40px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.giftCard li{
+  margin-left: 13px;
+  margin-top: 10px;
+}
+.jackpot{
+  background-image: url('./assets/jackpot.png');
+  background-size: cover;
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+  height: 150px;
+  width: 300px;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(140%, -200%);
+}
+.winnerCard{
+  background-image: url('./assets/winner.jpg');
+  background-size: cover;
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+  box-shadow:  2px 2px 20px yellow;
+  height: 200px;
+  width: 255px;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(350%, -140%);
+}
+.priceCard{
+  background-color: green;
+  background-image: url('./assets/game.jpg');
+  background-size: cover;
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+  border: 1px solid gray;
+  box-shadow:  2px 2px 20px yellow;
+  height: 350px;
+  width: 304px;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(275%, -21%);
+}
+.main {
+  font-family: Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(0%, 50%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px yellow;
+  background-image: url('./assets/Background.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 500px;
+}
+.wheel{
+  background-image: url('./assets/wheel.png');
+  background-size: cover;
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+  height: 350px;
+  width: 330px;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-10%, -21%);
+}
+.wisess{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(120%, 200%);
+}

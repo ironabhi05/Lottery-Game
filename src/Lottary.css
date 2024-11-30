@@ -1,0 +1,10 @@
+.screen{
+    top: 50%;
+    bottom: 50%;
+    transform: translate(30%, 95%);
+}
+.BtnDiv{
+    top: 50%;
+    bottom: 50%;
+    transform: translate(5%, 370%);
+}
