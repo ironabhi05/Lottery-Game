@@ -1,4 +1,4 @@
-.Ticket{
+.Ticket {
     gap: 10px;
     display: flex;
     width: 180px;
@@ -6,4 +6,34 @@
     background-color: goldenrod;
     border-radius: 10px;
     border: 1px solid black;
+}
+.numbers{
+    width: 30px;
+    height: auto;
+    padding: 5px;
+    font-size: 3rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+@media (max-width: 480px) {
+    .Ticket {
+        gap: 5px;
+        display: flex;
+        width: 60px;
+        padding: 6px;
+        background-color: goldenrod;
+        border-radius: 2px;
+        border: 1px solid black;
+    }
+    .numbers{
+        width: 10px;
+        height: auto;
+        padding: 2px;
+        font-size: 0.6rem;
+        border-radius: 2px;
+        border: 1px solid black;
+        background-color: red;
+    }
 }

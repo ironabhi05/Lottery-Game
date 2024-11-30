@@ -8,3 +8,15 @@
     bottom: 50%;
     transform: translate(5%, 370%);
 }
+@media (max-width: 480px) {
+    .BtnDiv{
+        top: 50%;
+        bottom: 50%;
+        transform: translate(5%, 370%);
+        }
+    .screen{
+        top: 50%;
+        bottom: 50%;
+        transform: translate(30%, 70%); 
+    }
+}
